@@ -1,0 +1,480 @@
+@media (max-width:576px){
+    body{
+        background-color:white;
+    }
+    .a2{
+        display: none;
+    }
+    .header{
+        position: fixed;
+        bottom:10px;
+        width : 95%;
+        background-color:black;
+        height:70px;
+        border:solid;
+        border-radius: 20px;
+        border-color: black;
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        justify-items:center;
+
+    }
+    a{
+        background-color: rgb(0, 255, 94);
+        border-radius: 10px;
+        width : 100px;
+        height : 35px;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 20px;
+        color: black;
+        margin-top:5px;
+    }
+    .a1:hover{
+        background-color:aquamarine;
+    }
+    .a2:hover{
+        background-color: aquamarine;
+    }
+    .main{
+        margin-top: 10px;
+        background-color:white;
+        padding : 20px;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .product{
+        height : 400px;
+        width : 250px;
+        border-radius: 20px;
+        background-color:white;
+        box-shadow: 0px 0px 10px rgb(234, 129, 129);
+        margin:20px;
+        padding:10px;
+    }
+    .image{
+        border:none;
+        height : 250px;
+        border-radius: 20%;
+    }
+    .details{
+        margin-top:10px;
+        padding-left:10px;
+        padding-bottom:10px;
+        height:80px;
+        border:none;
+    }
+    .details h3::before{
+        content:"Name: "
+    }
+    .details h2::before{
+        content:"Price: "
+    }
+    .button a{
+        padding: 10px;
+        background-color: black;
+        color:white;
+        text-align: center;
+    }
+    .button{
+        position: relative;
+        top:15px;
+        left : 70px;
+    }
+    img{
+        height:100%;
+        width:100%;
+        border-radius: 20%;
+    }
+    .float-icon{
+        display: none;
+    }
+    @keyframes example{
+        from{
+            height : 50px;
+            width : 50px;
+        }
+        to{
+            height : 100px;
+            width:100px;
+        }
+    }
+    .float-icon1{
+        height : 50px;
+        width :30px;
+        position: fixed;
+        top : 70%;
+        right :20px;
+        animation-name: example;
+        animation-iteration-count: infinite;
+    }
+    .float-icon1{
+        height : 50px;
+        width :50px;
+        position: fixed;
+        bottom : 120px;
+        right :20px;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count:infinite;
+    }
+   
+}
+
+@media (min-width:576px) and (max-width:768px){
+    body{
+        background-color:white;
+    }
+    .a2{
+        display: none;
+    }
+    .header{
+        position: fixed;
+        bottom:10px;
+        width : 95%;
+        background-color:black;
+        height:70px;
+        border:none;
+        border-radius: 20px;
+        border-color: black;
+        display:grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        justify-items:center;
+
+    }
+    a{
+        background-color: rgb(0, 255, 94);
+        border-radius: 10px;
+        width : 100px;
+        height : 35px;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 20px;
+        color: black;
+        margin-top:5px;
+    }
+    .a1:hover{
+        background-color:aquamarine;
+    }
+    .a2:hover{
+        background-color: aquamarine;
+    }
+    .main{
+        margin-top: 10px;
+        background-color:white;
+        padding : 20px;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .product{
+        height : 400px;
+        width : 250px;
+        border-radius: 20px;
+        background-color:grey;
+        margin:20px;
+        padding:10px;
+    }
+    .image{
+        border:none;
+        height : 250px;
+        border-radius: 20%;
+    }
+    .details{
+        margin-top:10px;
+        padding-left:10px;
+        padding-bottom:10px;
+        height:80px;
+        border:none;
+    }
+    .details h3::before{
+        content:"Name: "
+    }
+    .details h2::before{
+        content:"Price: "
+    }
+    .button a{
+        padding: 10px;
+        background-color: black;
+        color:white;
+        text-align: center;
+    }
+    .button{
+        position: relative;
+        top:15px;
+        left : 70px;
+    }
+    img{
+        height:100%;
+        width:100%;
+        border-radius: 20%;
+    }
+    .float-icon{
+        display: none;
+    }
+    .float-icon{
+        height : 50px;
+        width :30px;
+        position: fixed;
+        top : 70%;
+        right :20px;
+        animation-name: example;
+        animation-iteration-count: infinite;
+    }
+    .float-icon1{
+        height : 50px;
+        width :50px;
+        position: fixed;
+        bottom : 120px;
+        right :20px;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count:infinite;
+    }
+    @keyframes example{
+        from{
+            height : 50px;
+            width : 50px;
+        }
+        to{
+            height : 100px;
+            width:100px;
+        }
+    }
+}
+
+@media(min-width:768px) and (max-width:1200px){
+    body{
+        background-color:white;
+    }
+    .header{
+        background-color:white; 
+        height:70px;
+        border:none;
+        border-radius: 10px;
+        border-color: black;
+        display:grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        justify-items: center;
+    }
+    a{
+        background-color:black;
+        border-radius: 100px;
+        width : 100px;
+        height : 40px;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 20px;
+        color: white;
+        margin-top:5px;
+    }
+    .a1:hover{
+        background-color:aquamarine;
+    }
+    .a2:hover{
+        background-color: aquamarine;
+    }
+    .main{
+        margin-top: 10px;
+        background-color:lightcyan;
+        padding : 20px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+    .product{
+        height : 400px;
+        width : 250px;
+        background-color:lightgray;
+        border-radius:20px;
+        margin:20px;
+        padding:10px;
+    }
+    .image{
+        border:none;
+        height : 250px;
+    }
+    .details{
+        margin-top:10px;
+        padding-left:10px;
+        padding-bottom:10px;
+        height:80px;
+        border:none;
+    }
+    .details h3::before{
+        content:"Name: "
+    }
+    .details h2::before{
+        content:"Price: "
+    }
+    .button a{
+        padding: 10px;
+        background-color:green;
+        color:white;
+        text-align: center;
+    }
+    .button{
+        position: relative;
+        top:15px;  
+        left : 70px;
+    }
+    img{
+        height:100%;
+        width:100%;
+    }
+    .float-icon1{
+        display: none;
+    }
+    .float-icon{
+        height : 50px;
+        width :50px;
+        position:fixed;
+        bottom : 20px;
+        right :20px;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+    }
+    .float-icon{
+        height : 50px;
+        width :50px;
+        position: fixed;
+        bottom : 20px;
+        right :10px;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count:infinite;
+    }
+
+     @keyframes example{
+        from{
+            height : 50px;
+            width : 50px;
+        }
+        to{
+            height : 100px;
+            width:100px;
+        }
+    }
+}
+@media (min-width:1200px){
+    body{
+        background-color:white;
+    }
+    .header{
+        background-color:white; 
+        height:70px;
+        border:none;
+        border-radius: 10px;
+        border-color: black;
+        display:grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        justify-items: center;
+    }
+    a{
+        background-color:black;
+        border-radius: 100px;
+        width : 100px;
+        height : 40px;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 20px;
+        color: white;
+        margin-top:5px;
+    }
+    .a1:hover{
+        background-color:aquamarine;
+    }
+    .a2:hover{
+        background-color: aquamarine;
+    }
+    .main{
+        margin-top: 10px;
+        background-color:lightcyan;
+        padding : 20px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+    }
+    .product{
+        height : 400px;
+        width : 250px;
+        background-color:lightgray;
+        border-radius:20px;
+        margin:20px;
+        padding:10px;
+    }
+    .image{
+        border:none;
+        height : 250px;
+    }
+    .details{
+        margin-top:10px;
+        padding-left:10px;
+        padding-bottom:10px;
+        height:80px;
+        border:none;
+    }
+    .details h3::before{
+        content:"Name: "
+    }
+    .details h2::before{
+        content:"Price: "
+    }
+    .button a{
+        padding: 10px;
+        background-color:green;
+        color:white;
+        text-align: center;
+    }
+    .button{
+        position: relative;
+        top:15px;  
+        left : 70px;
+    }
+    img{
+        height:100%;
+        width:100%;
+    }
+    .float-icon1{
+        display: none;
+    }
+    .float-icon{
+        height : 50px;
+        width :50px;
+        position:fixed;
+        bottom : 20px;
+        right :20px;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+    }
+    .float-icon{
+        height : 50px;
+        width :50px;
+        position: fixed;
+        bottom : 20px;
+        right :10px;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-delay: 1s;
+        animation-iteration-count:infinite;
+    }
+
+     @keyframes example{
+        from{
+            height : 50px;
+            width : 50px;
+        }
+        to{
+            height : 100px;
+            width:100px;
+        }
+    }
+}
